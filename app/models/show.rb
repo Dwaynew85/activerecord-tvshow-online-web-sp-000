@@ -25,4 +25,5 @@ class Show < ActiveRecord::Base
 
   def shows_by_alphabetical_order
     #returns array of all the shows sorted in alphabetical order by name. hint: use order
+  end
 end
