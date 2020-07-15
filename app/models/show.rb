@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
   end
 
   def Show::most_popular_show
-    #return the show with the highest rating. hint: use highest_rating as helper method
+    Show.name.highest_rating
   end
 
   def Show::lowest_rating
